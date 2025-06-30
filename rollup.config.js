@@ -21,7 +21,8 @@ function cleanup() {
   console.log(`> Directory "${DIST}" has been cleaned.`);
 }
 
-function insertFrontmatter() {
+function insertFrontmatter() 
+{
   return {
     name: 'insert-frontmatter',
     generateBundle(_, bundle) {
@@ -31,7 +32,7 @@ function insertFrontmatter() {
         }
       }
     } 
-  };
+  }  
 }
 
 function build(
