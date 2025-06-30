@@ -30,7 +30,7 @@ function insertFrontmatter() {
           chunkOrAsset.code = frontmatter + chunkOrAsset.code;
         }
       }
-    }
+    } 
   };
 }
 
